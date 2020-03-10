@@ -134,8 +134,6 @@ function ShipperNewRoute() {
               </label>
             </Box>
             <Box>
-              {/* <input style={inputStyles} placeholder='Location' 
-                      onChange={(e)=>setDepartureLocation(e.target.value)}/> */}
               <label>
                 <select onChange={(e)=>setDepartureLocation(e.target.value)}>
                     <option value="New York/New Jersey">New York/New Jersey</option>
@@ -160,8 +158,6 @@ function ShipperNewRoute() {
               </label>
             </Box>
             <Box>    
-              {/* <input style={inputStyles} placeholder='Location' 
-                      onChange={(e)=>setArrivalLocation(e.target.value)}/> */}
               <label>
                 <select onChange={(e)=>setArrivalLocation(e.target.value)}>
                     <option value="Tangier-Med, Morocco">Tangier-Med, Morocco</option>
@@ -201,8 +197,6 @@ function ShipperNewRoute() {
           <br/>
       </Box>
     </Flex>
-
-    {/* <Attributions /> */}
 
   </div>
   )

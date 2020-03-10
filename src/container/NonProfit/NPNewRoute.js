@@ -59,16 +59,16 @@ function NPNewRoute() {
     e.preventDefault();
     flask(searchFlaskEndpoint, searchData);
 
-    let state = {value: 'coconut'};
+    // let state = {value: 'coconut'};
 
-    function handleChange(event) {
-      let setState = {value: event.target.value};
-    }
+    // function handleChange(event) {
+    //   let setState = {value: event.target.value};
+    // }
   
-    function handleSubmit(event) {
-      alert('Your favorite flavor is: ' + state.value);
-      event.preventDefault();
-    }
+    // function handleSubmit(event) {
+    //   alert('Your favorite flavor is: ' + state.value);
+    //   event.preventDefault();
+    // }
 
   };
 
@@ -225,8 +225,6 @@ function NPNewRoute() {
               </label><br/><br/>
             </Box>
             <Box>
-              {/* <input style={inputStyles} placeholder='Location' 
-                      onChange={(e)=>setDepartureLocation(e.target.value)}/> */}
               <label>
                 <select onChange={(e)=>setDepartureLocation(e.target.value)}>
                     <option value="New York/New Jersey">New York/New Jersey</option>
@@ -249,8 +247,6 @@ function NPNewRoute() {
               </label>
             </Box>
             <Box>    
-              {/* <input style={inputStyles} placeholder='Location' 
-                      onChange={(e)=>setArrivalLocation(e.target.value)}/> */}
               <label>
                 <select onChange={(e)=>setArrivalLocation(e.target.value)}>
                     <option value="Tangier-Med, Morocco">Tangier-Med, Morocco</option>
